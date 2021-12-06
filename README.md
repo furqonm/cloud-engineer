@@ -67,4 +67,4 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
 
 ### 2. Step-by-Step Tutorials
 - [Compute Engine: Tutorials](https://cloud.google.com/compute/docs/tutorials)
-    > Kumpulan panduan lab yang dikerjakan diakun Google Cloud kita. Harap berhati-hati akan biaya pengeluaran ketika melakukan langkah-langkahnya karena lab ini dikerjakan diakun sendiri. Perhatikan langkah terakhir "Clean up" yang menjelaskan apa yang harus diterminate diakun kita.
+    > Kumpulan panduan lab yang dikerjakan diakun Google Cloud kita. Harap berhati-hati akan biaya pengeluaran ketika melakukan langkah-langkahnya karena lab ini dikerjakan diakun sendiri. Perhatikan langkah terakhir "Clean up" yang menjelaskan apa yang harus diremove diakun kita.
