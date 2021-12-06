@@ -51,7 +51,7 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
     > Video material dari Andrew Brown (ExamPro) di freecodecamp. Silahkan dipelajari untuk memperkuat konsep dasar Google Cloud, dimana materi ini cocok untuk pemula dan terdapat beberapa demo yang ditampilkan.
 
 ### 2. Exam Guide
-- [Associate Cloud Engineer: Certification Exam Guide)](https://cloud.google.com/certification/guides/cloud-engineer?skip_cache=true)
+- [Associate Cloud Engineer: Certification Exam Guide](https://cloud.google.com/certification/guides/cloud-engineer?skip_cache=true)
     > Membahas 5 domain/section yang akan ditanyakan diujian. Mohon untuk beberapa poin mana yang tidak dimengerti dipelajari dan dicari materi.
 - [Google Cloud - Developers Cheat Sheet](https://raw.githubusercontent.com/gregsramblings/google-cloud-4-words/master/DarkPoster-lowres.png)
     > Catatan berisikan penjelasan singkat service-service di Google Cloud.
