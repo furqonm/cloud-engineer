@@ -53,8 +53,6 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
 ### 2. Exam Guide
 - [Associate Cloud Engineer: Certification Exam Guide](https://cloud.google.com/certification/guides/cloud-engineer?skip_cache=true)
     > Membahas 5 domain/section yang akan ditanyakan diujian. Mohon untuk beberapa poin mana yang tidak dimengerti dipelajari dan dicari materi.
-- [Google Cloud - Developers Cheat Sheet](https://raw.githubusercontent.com/gregsramblings/google-cloud-4-words/master/DarkPoster-lowres.png)
-    > Catatan berisikan penjelasan singkat service-service di Google Cloud.
 
 ### 3. Exam Readiness
 - [Associate Cloud Engineer Sample Questions](https://docs.google.com/forms/d/e/1FAIpQLSfexWKtXT2OSFJ-obA4iT3GmzgiOCGvjrT9OfxilWC1yPtmfQ/viewform)
