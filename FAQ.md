@@ -9,8 +9,8 @@
   > [Harga](https://cloud.google.com/vpc/network-pricing) keduanya sama, tapi akan mahal _static IP_ kalau kita tidak menggunakan _static IP_ tersebut.
 
 ## Persistent Disk
-### 1. Apakah ada [best practice untuk snapshot](https://cloud.google.com/compute/docs/disks/snapshot-best-practices), seperti VMWare terdapat [dampak ke performance saat snapshot](https://4sysops.com/archives/performance-impact-of-snapshots-in-vmware-vsphere-7/)?
-  > Konsep dari snapshot di Google Cloud berbeda dibandingkan VMWare. Dimana setiap snapshot Persistent Disk menyimpan data yang bertambah atau berubah ke Cloud Storage setelah full backup di snapshot pertama, dan VM akan tetap menggunakan Persistent Disk-nya untuk mengakses dan menyimpan data. VM akan menggunakan snapshot, ketika snapshot tadi kita restore menjadi persistent disk. Jadi tidak ada masalah performance yang berdampak ke VM jika kita melakukan banyak snapshot.
+### 1. Apakah ada [best practice untuk snapshot](https://cloud.google.com/compute/docs/disks/snapshot-best-practices) untuk mencegah [dampak ke performance saat snapshot](https://4sysops.com/archives/performance-impact-of-snapshots-in-vmware-vsphere-7/)?
+  > Konsep dari snapshot di Google Cloud berbeda dibandingkan produk virtualisasi di on-premise. Dimana setiap snapshot Persistent Disk menyimpan data yang bertambah atau berubah ke Cloud Storage setelah full backup di snapshot pertama, dan VM akan tetap menggunakan Persistent Disk-nya untuk mengakses dan menyimpan data. VM akan menggunakan snapshot, ketika snapshot tadi kita restore menjadi persistent disk. Jadi tidak ada masalah performance yang berdampak ke VM jika kita melakukan banyak snapshot.
 
 ## Cloud Identity
 ### 1. Apakah kita bisa ganti dari Cloud Identity ke Workspace?
