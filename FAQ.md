@@ -1,7 +1,7 @@
 # Google Cloud FAQ
 ## Compute Engine
 ### 1. Berapa banyak CPU core untuk satu vCPU di Compute Engine?
-  > 1 vCPU sama dengan 1 [_hyperthread_](https://www.youtube.com/watch?v=lrT9Bl0MCXQ) di CPU. Dimana umumnya setiap 1 core didalam CPU memiliki 2 _hyperthread_. Contohnya dari spesifikasi [Intel® Xeon® Processor E7](https://ark.intel.com/content/www/us/en/ark/products/93806/intel-xeon-processor-e74850-v4-40m-cache-2-10-ghz.html), penjelasan pengaturan [berapa vCPU untuk VM](https://help.tableau.com/current/server/en-us/ts_gcp_virtual_machine_selection.htm) yang akan dipasang Tableau, atau yang ada [didaftar ini](https://en.wikipedia.org/wiki/List_of_Intel_Skylake-based_Xeon_microprocessors)).
+  > 1 vCPU sama dengan 1 [_hyperthread_](https://www.youtube.com/watch?v=lrT9Bl0MCXQ) di CPU. Dimana umumnya setiap 1 core didalam CPU memiliki 2 _hyperthread_. Contohnya dari spesifikasi [Intel® Xeon® Processor E7](https://ark.intel.com/content/www/us/en/ark/products/93806/intel-xeon-processor-e74850-v4-40m-cache-2-10-ghz.html), penjelasan pengaturan [berapa vCPU untuk VM](https://help.tableau.com/current/server/en-us/ts_gcp_virtual_machine_selection.htm) yang akan dipasang Tableau, atau [daftar spesifikasi Intel Xeon - Skylake](https://en.wikipedia.org/wiki/List_of_Intel_Skylake-based_Xeon_microprocessors).
   > 
   > Jadi 1 vCPU bisa dikatakan 1/2 core di CPU.
 
