@@ -56,7 +56,7 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
 ### 2. GCP Course: Associate Level
 - [Google Cloud Associate Cloud Engineer - The Certified Q&A for GCP](https://www.youtube.com/playlist?list=PLQMsfKRZZviRwqJwNmh1eAWnRMvlrk40x) **(Unofficial)**
 
-    > Video material dari AwesomeGCP. Silahkan dipelajari untuk memperdalam pengenalan beberapa service di GCP berikut fitur-fiturnya yang mungkin diujikan di SAA-C02. Terdapat contoh soal dibahas didalam video.
+    > Video material dari AwesomeGCP. Silahkan dipelajari untuk memperdalam pengenalan beberapa service di GCP berikut fitur-fiturnya yang mungkin diujikan nanti. Terdapat contoh soal dibahas juga didalam video.
 
 ### 3. Exam Guide
 - [Associate Cloud Engineer: Certification Exam Guide](https://cloud.google.com/certification/guides/cloud-engineer?skip_cache=true)
