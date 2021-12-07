@@ -54,12 +54,12 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
 ### 2. Exam Guide
 - [Associate Cloud Engineer: Certification Exam Guide](https://cloud.google.com/certification/guides/cloud-engineer?skip_cache=true)
 
-    > Membahas 5 domain/section yang akan ditanyakan diujian. Mohon untuk beberapa poin mana yang tidak dimengerti dipelajari dan dicari materi.
+    > Membahas 5 domain/section yang akan ditanyakan diujian. Bisa dicek beberapa poin mana yang tidak dimengerti untuk dipelajari lebih lanjut.
 
 ### 3. Exam Readiness
 - [Associate Cloud Engineer Sample Questions](https://docs.google.com/forms/d/e/1FAIpQLSfexWKtXT2OSFJ-obA4iT3GmzgiOCGvjrT9OfxilWC1yPtmfQ/viewform)
 
-    > Beberapa contoh soal yang bisa dikerjakan untuk mengenali format pertanyaan ujian GCP ACE nanti.
+    > Simulasi ujian via Google Forms untuk mengenali format pertanyaan ujian GCP ACE nanti.
 
 ## Hands on Lab
 ### 1. Free Labs
