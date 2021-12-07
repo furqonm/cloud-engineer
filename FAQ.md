@@ -8,6 +8,10 @@
 ### 2. Apakah harga dari [static IP](https://cloud.google.com/compute/docs/ip-addresses#reservedaddress) dan [ephemeral IP](https://cloud.google.com/compute/docs/ip-addresses#ephemeraladdress) berbeda?
   > [Harga](https://cloud.google.com/vpc/network-pricing) keduanya sama, tapi akan mahal _static IP_ kalau kita tidak menggunakan _static IP_ tersebut.
 
+## Persistent Disk
+### 1. Apakah ada BEST PRACTICE UNTUK SNAPSHOT?
+  > Tidak ada batasan performance berapa banyak snapshot yang kita lakukan
+
 ## Cloud Identity
 ### 1. Apakah kita bisa ganti dari Cloud Identity ke Workspace?
   > Hal tersebut bisa kita lakukan, tapi bukan diganti melainkan [diupgrade](https://support.google.com/cloudidentity/answer/7668760#zippy=%2Ccloud-identity-and-google-workspace). Caranya kita beli license/subscribe Google Workspace untuk Cloud Identity kita. User bisa memiliki Cloud Identity license dan Google Workspace license secara bersamaan.
