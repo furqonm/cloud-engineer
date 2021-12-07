@@ -5,12 +5,12 @@
   > 
   > Jadi 1 vCPU bisa dikatakan 1/2 core di CPU.
 
-### 2. Apakah harga dari [static IP](https://cloud.google.com/compute/docs/ip-addresses#reservedaddress) dan [ephemeral IP](https://cloud.google.com/compute/docs/ip-addresses#ephemeraladdress) berbeda?
+### 2. Apakah harga dari *[static IP](https://cloud.google.com/compute/docs/ip-addresses#reservedaddress)* dan *[ephemeral IP](https://cloud.google.com/compute/docs/ip-addresses#ephemeraladdress)* berbeda?
   > [Harga](https://cloud.google.com/vpc/network-pricing) keduanya sama, tapi akan mahal _static IP_ kalau kita tidak menggunakan _static IP_ tersebut.
 
 ## Persistent Disk
-### 1. Apakah ada BEST PRACTICE UNTUK SNAPSHOT?
-  > Tidak ada batasan performance berapa banyak snapshot yang kita lakukan
+### 1. Apakah ada [best practice untuk snapshot](https://cloud.google.com/compute/docs/disks/snapshot-best-practices), seperti VMWare terdapat [dampak ke performance saat snapshot](https://4sysops.com/archives/performance-impact-of-snapshots-in-vmware-vsphere-7/)?
+  > Konsep dari snapshot di Google Cloud berbeda dibandingkan VMWare. Dimana setiap snapshot Persistent Disk menyimpan data yang bertambah atau berubah ke Cloud Storage setelah full backup di snapshot pertama, dan VM akan tetap menggunakan Persistent Disk-nya untuk mengakses dan menyimpan data. VM akan menggunakan snapshot, ketika snapshot tadi kita restore menjadi persistent disk. Jadi tidak ada masalah performance yang berdampak ke VM jika kita melakukan banyak snapshot.
 
 ## Cloud Identity
 ### 1. Apakah kita bisa ganti dari Cloud Identity ke Workspace?
