@@ -53,17 +53,17 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
 
     > Video material dari Andrew Brown (ExamPro) di freecodecamp. Silahkan dipelajari untuk memperkuat konsep dasar Google Cloud, dimana materi ini cocok untuk pemula dan terdapat beberapa demo yang ditampilkan.
 
-### 1. GCP Course: Associate Level
+### 2. GCP Course: Associate Level
 - [Google Cloud Associate Cloud Engineer - The Certified Q&A for GCP](https://www.youtube.com/playlist?list=PLQMsfKRZZviRwqJwNmh1eAWnRMvlrk40x) **(Unofficial)**
 
     > Video material dari AwesomeGCP. Silahkan dipelajari untuk memperdalam pengenalan beberapa service di GCP berikut fitur-fiturnya yang mungkin diujikan di SAA-C02. Terdapat contoh soal dibahas didalam video.
 
-### 2. Exam Guide
+### 3. Exam Guide
 - [Associate Cloud Engineer: Certification Exam Guide](https://cloud.google.com/certification/guides/cloud-engineer?skip_cache=true)
 
     > Membahas 5 domain/section yang akan ditanyakan diujian. Bisa dicek beberapa poin mana yang tidak dimengerti untuk dipelajari lebih lanjut.
 
-### 3. Exam Readiness
+### 4. Exam Readiness
 - [Associate Cloud Engineer Sample Questions](https://docs.google.com/forms/d/e/1FAIpQLSfexWKtXT2OSFJ-obA4iT3GmzgiOCGvjrT9OfxilWC1yPtmfQ/viewform)
 
     > Simulasi ujian via Google Forms untuk mengenali format pertanyaan ujian GCP ACE nanti.
