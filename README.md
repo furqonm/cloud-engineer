@@ -1,6 +1,7 @@
 # Preparation for GCP Associate Cloud Engineer (ACE) Certification
 _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan materi belajar. Sumber belajar yang saya dokumentasikan sendiri ini tidak merepresentasikan informasi resmi dari pihak Google Cloud, meskipun beberapa link dan material bersumber resmi dari Google Cloud._
 
+---
 ## Training (Syllabus)
 1. Introduction to Google Cloud
     > Materi pembuka dan penjelasan terkait apa itu Google Cloud.
@@ -45,7 +46,8 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
 11. Managed Services
     > Membahas beberapa managed service untuk big data di Google Cloud, seperti BigQuery, Cloud Dataflow, Cloud Dataprep dari Trifacta, dan Cloud Dataproc.
 
-## Additional Material
+---
+## Exam Preparation Materials
 ### 1. GCP Course: Fundamental Level
 - [Google Cloud Digital Leader Certification Course - Pass the Exam!](https://www.youtube.com/watch?v=UGRDM86MBIQ&ab_channel=freeCodeCamp.org) **(Unofficial)**
 
@@ -61,7 +63,8 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
 
     > Simulasi ujian via Google Forms untuk mengenali format pertanyaan ujian GCP ACE nanti.
 
-## Hands on Lab
+---
+## Hands-on Labs
 ### 1. Free Labs
 - [Google Cloud Skills Boost](https://www.cloudskillsboost.google/catalog?price%5B%5D=free)
 
