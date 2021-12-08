@@ -13,7 +13,7 @@
   > Konsep dari snapshot di Google Cloud berbeda dibandingkan produk virtualisasi di on-premise. Dimana setiap snapshot Persistent Disk menyimpan data yang bertambah atau berubah ke Cloud Storage setelah full backup di snapshot pertama, dan VM akan tetap menggunakan Persistent Disk-nya untuk mengakses dan menyimpan data. VM akan menggunakan snapshot, ketika snapshot tadi kita restore menjadi persistent disk. Jadi tidak ada masalah performance yang berdampak ke VM jika kita melakukan banyak snapshot.
 
 ## Cloud Storage
-### 1. Apakah Transfer Appliance bisa dikirimkan ke data center saya di Indonesia?
+### 1. Apakah [Transfer Appliance](https://cloud.google.com/transfer-appliance/docs/4.0/overview) bisa dikirimkan ke data center saya di Indonesia?
   > Transfer Appliance belum support untuk pengiriman ke Indonesia. Mungkin kita bisa mencoba layanan [Offline Data Import](https://cloud.google.com/blog/products/gcp/iron-mountain-increases-bandwidth-to-google-cloud-by-10x-for-faster-data-ingestion-) dari 3rd party. 
 
 ## Cloud Identity
