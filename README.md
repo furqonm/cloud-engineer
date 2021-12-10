@@ -6,43 +6,17 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
 
 | No | Modul | Deskripsi | Lab |
 | ------------- | ------------- | ------------- | ------------- |
-| 1. | Introduction to Google Cloud  | Materi pembuka dan penjelasan terkait apa itu Google Cloud | 1. Console and Cloud Shell, 2. Infrastructure Preview |
-| 2. | Virtual Networks | Membuat Virtual Private Network dan komponen lainnya seperti Subnet, Route Table, Firewall, dan lainnya | 1. VPC Networking, 2. Implement Private Google Access and Cloud NAT |
-| 3. | Virtual Machines | Membuat Virtual Machines menggunakan Google Compute Engine (GCE) | Lab: 1. Creating Virtual Machines, 2. Working with Virtual Machines |
-| 4. | Cloud IAM | Mengelola hak akses menggunakan resource melalui Identity and Access Management (IAM) | Cloud IAM |
-| 5. |  |  |  |
-| 6. |  |  |  |
-| 7. |  |  |  |
-| 8. |  |  |  |
-| 9. |  |  |  |
-| 10. |  |  |  |
-| 11. |  |  |  |
-5. Storage and Database Services
-    > Implementasi beberapa storage di Google Cloud. Disini dijelaskan beberapa service seperti Cloud Storage, Cloud SQL, Cloud Spanner, Firestore, Cloud Bigtable
-    > 
-    > _Lab: 1. Cloud Storage, 2. Implementing Cloud SQL_
-6. Resource Management
-    > Mengelola resource, billing, label dan quota di Google Cloud.
-    > 
-    > _Lab: 1. Analyzing Billing Data with BigQuery_
-7. Resource Monitoring
-    > Memantau resource menggunakan layanan di Google Cloud Operation Suite, seperti Cloud Monitoring, Cloud Logging, Error Reporting, Cloud Trace, Cloud Debugger, and Cloud Profiler.
-    > 
-    > _Lab: 1. Resource Monitoring, 2. Error Reporting and Debugging_
-8. Interconnecting Networks
-    > Interkoneksi antar VPC, atau antara VPC dengan network lain via cable atau VPN.
-    > 
-    > _Lab: 1. Virtual Private Networks (VPN)_
-9. Load Balancing
-    > Konfigurasi Cloud Load Balancing, dan beberapa opsi load balancer lainnya yang ditawarkan oleh Google Cloud. Autoscaling untuk VM yang kita punya juga dibahas.
-    > 
-    > _Lab: 1. Configuring an HTTP Load Balancer with Autoscaling, 2. Configuring an Internal Load Balancer_
-10. Infrastructure Automation
-    > Automasi pembuatan infrastruktur di Google Cloud via Deployment Manager.
-    > 
-    > _Lab: 1. Automating the Deployment of Infrastructure Using Deployment Manager, 2. Automating the Deployment of Infrastructure Using Terraform_
-11. Managed Services
-    > Membahas beberapa managed service untuk big data di Google Cloud, seperti BigQuery, Cloud Dataflow, Cloud Dataprep dari Trifacta, dan Cloud Dataproc.
+| 1 | Introduction to Google Cloud  | Materi pembuka dan penjelasan terkait apa itu Google Cloud. | 1. Console and Cloud Shell.<br/> 2. Infrastructure Preview. |
+| 2 | Virtual Networks | Membuat Virtual Private Network dan komponen lainnya seperti Subnet, Route Table, Firewall, dan lainnya. | 1. VPC Networking.<br/> 2. Implement Private Google Access and Cloud NAT. |
+| 3 | Virtual Machines | Membuat Virtual Machines menggunakan Google Compute Engine (GCE). | 1. Creating Virtual Machines.<br/> 2. Working with Virtual Machines. |
+| 4 | Cloud IAM | Mengelola hak akses menggunakan resource melalui Identity and Access Management (IAM). | Cloud IAM |
+| 5 | Storage and Database Services | Implementasi beberapa storage di Google Cloud. Disini dijelaskan beberapa service seperti Cloud Storage, Cloud SQL, Cloud Spanner, Firestore, dan Cloud Bigtable. | 1. Cloud Storage.<br/> 2. Implementing Cloud SQL. |
+| 6 | Resource Management | Mengelola resource, billing, label dan quota di Google Cloud. | Analyzing Billing Data with BigQuery |
+| 7 | Resource Monitoring | Memantau resource menggunakan layanan di Google Cloud Operation Suite, seperti Cloud Monitoring, Cloud Logging, Error Reporting, Cloud Trace, Cloud Debugger, and Cloud Profiler. | 1. Resource Monitoring.<br/> 2. Error Reporting and Debugging. |
+| 8 | Interconnecting Networks | Interkoneksi antar VPC, atau antara VPC dengan network lain via cable atau VPN. | Virtual Private Networks (VPN) |
+| 9 | Load Balancing | Konfigurasi Cloud Load Balancing, dan beberapa opsi load balancer lainnya yang ditawarkan oleh Google Cloud. Autoscaling untuk menambah dan mengurangi jumlah VM secara otomatis sesuai dengan kebutuhan juga dibahas. | 1. Configuring an HTTP Load Balancer with Autoscaling.<br/> 2. Configuring an Internal Load Balancer. |
+| 10 | Infrastructure Automation | Automasi pembuatan infrastruktur di Google Cloud via Deployment Manager. | 1. Automating the Deployment of Infrastructure Using Deployment Manager.<br/> 2. Automating the Deployment of Infrastructure Using Terraform. |
+| 11 | Managed Services | Membahas beberapa managed service untuk big data di Google Cloud, seperti BigQuery, Cloud Dataflow, Cloud Dataprep dari Trifacta, dan Cloud Dataproc. | - |
 
 ---
 ## Exam Preparation Materials
