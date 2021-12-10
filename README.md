@@ -3,22 +3,20 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
 
 ---
 ## Training (Syllabus)
-1. Introduction to Google Cloud
-    > Materi pembuka dan penjelasan terkait apa itu Google Cloud.
-    > 
-    > _Lab: 1. Console and Cloud Shell, 2. Infrastructure Preview_
-2. Virtual Networks
-    > Membuat Virtual Private Network dan komponen lainnya seperti Subnet, Route Table, Firewall, dan lainnya.
-    > 
-    > _Lab: 1. VPC Networking, 2. Implement Private Google Access and Cloud NAT_
-3. Virtual Machines
-    > Membuat Virtual Machines menggunakan Google Compute Engine (GCE).
-    > 
-    > _Lab: 1. Creating Virtual Machines, 2. Working with Virtual Machines_
-4. Cloud IAM
-    > Mengelola hak akses menggunakan resource melalui Identity and Access Management (IAM).
-    > 
-    > _Lab: Cloud IAM_
+
+| No | Modul | Deskripsi | Lab |
+| ------------- | ------------- | ------------- | ------------- |
+| 1. | Introduction to Google Cloud  | Materi pembuka dan penjelasan terkait apa itu Google Cloud | 1. Console and Cloud Shell, 2. Infrastructure Preview |
+| 2. | Virtual Networks | Membuat Virtual Private Network dan komponen lainnya seperti Subnet, Route Table, Firewall, dan lainnya | 1. VPC Networking, 2. Implement Private Google Access and Cloud NAT |
+| 3. | Virtual Machines | Membuat Virtual Machines menggunakan Google Compute Engine (GCE) | Lab: 1. Creating Virtual Machines, 2. Working with Virtual Machines |
+| 4. | Cloud IAM | Mengelola hak akses menggunakan resource melalui Identity and Access Management (IAM) | Cloud IAM |
+| 5. |  |  |  |
+| 6. |  |  |  |
+| 7. |  |  |  |
+| 8. |  |  |  |
+| 9. |  |  |  |
+| 10. |  |  |  |
+| 11. |  |  |  |
 5. Storage and Database Services
     > Implementasi beberapa storage di Google Cloud. Disini dijelaskan beberapa service seperti Cloud Storage, Cloud SQL, Cloud Spanner, Firestore, Cloud Bigtable
     > 
@@ -56,7 +54,7 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
 ### 2. GCP Course: Associate Level
 - [Google Cloud Associate Cloud Engineer - The Certified Q&A for GCP](https://www.youtube.com/playlist?list=PLQMsfKRZZviRwqJwNmh1eAWnRMvlrk40x) **(Unofficial)**
 
-    > Video material dari AwesomeGCP. Silahkan dipelajari untuk memperdalam pengenalan beberapa service di GCP berikut fitur-fiturnya yang mungkin diujikan nanti. Terdapat contoh soal dibahas juga didalam video.
+    > Video material dari AwesomeGCP. Silahkan dipelajari untuk memperdalam pengenalan beberapa service di GCP berikut fitur-fiturnya yang mungkin diujikan nanti. Disini dibahas juga contoh soal ujian GCP PCA.
 
 ### 3. Exam Guide
 - [Associate Cloud Engineer: Certification Exam Guide](https://cloud.google.com/certification/guides/cloud-engineer?skip_cache=true)
