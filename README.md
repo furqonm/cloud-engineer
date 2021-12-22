@@ -34,6 +34,11 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
 
     > Gratis 30 hari untuk mengakses labs dan challenge labs. Kalau kita selesaikan semuanya, kita mendapatkan Google Cloud digital skill badge yang bisa dishare ke social media.
 
+- [Play with Docker](https://labs.play-with-docker.com/)
+- [Kubernetes: Hello Minikube](https://kubernetes.io/docs/tutorials/hello-minikube/)
+
+    > Hands-on Labs gratis untuk belajar Docker dan Kubernetes. Lab berjalan di browser tanpa memerlukan instalasi.
+
 ### 2. Step-by-Step Tutorials
 - [Compute Engine: Tutorials](https://cloud.google.com/compute/docs/tutorials)
 
