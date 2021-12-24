@@ -23,7 +23,6 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
 
     > Simulasi ujian via Google Forms untuk mengenali format pertanyaan ujian GCP ACE nanti.
 
----
 ## Hands-on Labs
 ### 1. Free Labs
 - [Google Cloud Skills Boost](https://www.cloudskillsboost.google/catalog?price%5B%5D=free)
