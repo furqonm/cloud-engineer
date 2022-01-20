@@ -42,3 +42,9 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
 - [Compute Engine: Tutorials](https://cloud.google.com/compute/docs/tutorials)
 
     > Kumpulan panduan lab yang dikerjakan diakun Google Cloud kita. Harap berhati-hati akan biaya pengeluaran ketika melakukan langkah-langkahnya karena lab ini dikerjakan diakun sendiri. Perhatikan langkah terakhir **clean up** yang menjelaskan apa yang harus diremove diakun kita.
+
+## Additional Material
+### 1. Infrastructure as Code (IAC)
+- [HashiCorp Terraform Associate Certification Course - Pass the Exam!](https://www.youtube.com/watch?v=V4waklkBC38&ab_channel=freeCodeCamp.org) **(Unofficial)**
+
+    > Video material dari Andrew Brown (ExamPro) di freecodecamp. Silahkan dipelajari untuk mempelajari Terraform dan mempersiapkan ujian HashiCorp Certified: Terraform Associate.
