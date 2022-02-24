@@ -47,7 +47,7 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
 
     > Kumpulan panduan lab yang dikerjakan diakun Google Cloud kita. Harap berhati-hati akan biaya pengeluaran ketika melakukan langkah-langkahnya karena lab ini dikerjakan diakun sendiri. Perhatikan langkah terakhir **clean up** yang menjelaskan apa yang harus diremove diakun kita.
 
-## Additional Material
+## Additional Material (Optional)
 ### 1. Infrastructure as Code (IAC)
 - [HashiCorp Terraform Associate Certification Course - Pass the Exam!](https://www.youtube.com/watch?v=V4waklkBC38&ab_channel=freeCodeCamp.org) **(Unofficial)**
 
