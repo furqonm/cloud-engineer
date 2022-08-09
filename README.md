@@ -28,7 +28,6 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
     > Simulasi ujian via Google Forms untuk mengenali format pertanyaan ujian GCP ACE nanti.
 
 ## Hands-on Labs
-### 1. Free Labs
 - [Google Cloud Skills Boost](https://www.cloudskillsboost.google/catalog?price%5B%5D=free)
 
     > Kumpulan lab Google Cloud yang disediakan gratis. Untuk mencoba bisa mendaftar menggunakan akun Google kita.
@@ -41,11 +40,6 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
 - [Kubernetes: Hello Minikube](https://kubernetes.io/docs/tutorials/hello-minikube/)
 
     > Hands-on Labs gratis untuk belajar Docker dan Kubernetes. Lab berjalan di browser tanpa memerlukan instalasi.
-
-### 2. Step-by-Step Tutorials
-- [Compute Engine: Tutorials](https://cloud.google.com/compute/docs/tutorials)
-
-    > Kumpulan panduan lab yang dikerjakan diakun Google Cloud kita. Harap berhati-hati akan biaya pengeluaran ketika melakukan langkah-langkahnya karena lab ini dikerjakan diakun sendiri. Perhatikan langkah terakhir **clean up** yang menjelaskan apa yang harus diremove diakun kita.
 
 ## Additional Material (Optional)
 ### 1. Infrastructure as Code (IAC)
