@@ -29,29 +29,37 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
 
 ## Official Documentation
 ### 1. Permission
-- [Cloud Billing: Access Control & Permissions](https://cloud.google.com/billing/docs/how-to/billing-access) untuk mempelajari:
+- [Cloud Billing: Access control & permissions](https://cloud.google.com/billing/docs/how-to/billing-access) untuk mempelajari:
   - Bagaimana billing di Google Cloud bekerja.
   - Mengenal perbedaan beberapa IAM Role terkait Cloud Billing, contohnya Billing Account User dengan Billing Account Administrator.
 
-- [Big Query: Access Control with IAM](https://cloud.google.com/bigquery/docs/access-control) untuk mempelajari:
+- [Big Query: Access control with IAM](https://cloud.google.com/bigquery/docs/access-control) untuk mempelajari:
   - Scope penerapan Role, bisa di project, dataset, atau table/view.
   - Mengenal perbedaan beberapa IAM Role terkait Big Query, contohnya BigQuery Data Editor dengan BigQuery Job User.
 
-- [Compute Engine: Access Control Overview](https://cloud.google.com/compute/docs/access) untuk mempelajari:
+- [Compute Engine: Access control overview](https://cloud.google.com/compute/docs/access) untuk mempelajari:
   - Mengenal perbedaan beberapa IAM Role terkait Compute Engine, contohnya Compute Engine Network Admin dengan Compute Engine Security Admin.
 
-- [App Engine: Roles that Grant Access](https://cloud.google.com/appengine/docs/standard/python/roles) untuk mempelajari:
+- [App Engine: Roles that grant access](https://cloud.google.com/appengine/docs/standard/python/roles) untuk mempelajari:
   - Mengenal perbedaan beberapa IAM Role terkait App Engine, contohnya App Engine Code Viewer dengan App Engine Deployer.
 
-KUBERNETES
---> Cluster
-https://cloud.google.com/kubernetes-engine/docs/concepts/sandbox-pods
-https://cloud.google.com/kubernetes-engine/docs/concepts/node-pools
+### 2. Maintenance
+
+
+### 3. Kubernetes
+- [Node pools](https://cloud.google.com/kubernetes-engine/docs/concepts/node-pools) dan resizing a cluster https://cloud.google.com/kubernetes-engine/docs/how-to/resizing-a-cluster) untuk mempelajari:
+  - Apa itu node pools.
+  - Resize cluster dan node pools.
+
 https://cloud.google.com/kubernetes-engine/docs/concepts/cluster-upgrades-autopilot
 https://cloud.google.com/kubernetes-engine/docs/concepts/cluster-upgrades
+https://cloud.google.com/kubernetes-engine/docs/concepts/maintenance-windows-and-exclusions
+
+
+https://cloud.google.com/kubernetes-engine/docs/concepts/sandbox-pods
+
 --> Security & Update
 https://cloud.google.com/kubernetes-engine/docs/concepts/access-control
-https://cloud.google.com/kubernetes-engine/docs/concepts/maintenance-windows-and-exclusions
 
 App Engine Standard & Flex
 https://cloud.google.com/appengine/docs/the-appengine-environments
