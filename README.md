@@ -27,7 +27,43 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
 
     > Simulasi ujian via Google Forms untuk mengenali format pertanyaan ujian GCP ACE nanti.
 
-## Hands-on Labs
+## Official Documentation
+### 1. Permission
+- [Cloud Billing: Access Control & Permissions](https://cloud.google.com/billing/docs/how-to/billing-access) untuk mempelajari:
+  - Bagaimana billing di Google Cloud bekerja.
+  - Mengenal perbedaan beberapa IAM Role terkait Cloud Billing, contohnya Billing Account User dengan Billing Account Administrator.
+
+- [Big Query: Access Control with IAM](https://cloud.google.com/bigquery/docs/access-control) untuk mempelajari:
+  - Scope penerapan Role, bisa di project, dataset, atau table/view.
+  - Mengenal perbedaan beberapa IAM Role terkait Big Query, contohnya BigQuery Data Editor dengan BigQuery Job User.
+
+- [Compute Engine: Access Control Overview](https://cloud.google.com/compute/docs/access) untuk mempelajari:
+  - Mengenal perbedaan beberapa IAM Role terkait Compute Engine, contohnya Compute Engine Network Admin dengan Compute Engine Security Admin.
+
+- [App Engine: Roles that Grant Access](https://cloud.google.com/appengine/docs/standard/python/roles) untuk mempelajari:
+  - Mengenal perbedaan beberapa IAM Role terkait App Engine, contohnya App Engine Code Viewer dengan App Engine Deployer.
+
+KUBERNETES
+--> Cluster
+https://cloud.google.com/kubernetes-engine/docs/concepts/sandbox-pods
+https://cloud.google.com/kubernetes-engine/docs/concepts/node-pools
+https://cloud.google.com/kubernetes-engine/docs/concepts/cluster-upgrades-autopilot
+https://cloud.google.com/kubernetes-engine/docs/concepts/cluster-upgrades
+--> Security & Update
+https://cloud.google.com/kubernetes-engine/docs/concepts/access-control
+https://cloud.google.com/kubernetes-engine/docs/concepts/maintenance-windows-and-exclusions
+
+App Engine Standard & Flex
+https://cloud.google.com/appengine/docs/the-appengine-environments
+https://cloud.google.com/appengine/docs/standard/python/how-instances-are-managed
+
+Etc.
+https://cloud.google.com/compute/docs/instance-groups/rolling-out-updates-to-managed-instance-groups
+https://cloud.google.com/resource-manager/docs/moving-projects-folders
+https://cloud.google.com/logging/docs/routing/overview
+https://cloud.google.com/compute/docs/images/create-delete-deprecate-private-images
+
+## Hands-on Labs (Optional)
 - [Google Cloud Skills Boost](https://www.cloudskillsboost.google/catalog?price%5B%5D=free)
 
     > Kumpulan lab Google Cloud yang disediakan gratis. Untuk mencoba bisa mendaftar menggunakan akun Google kita.
