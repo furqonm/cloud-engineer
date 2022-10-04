@@ -43,33 +43,45 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
 - [App Engine: Roles that grant access](https://cloud.google.com/appengine/docs/standard/python/roles) untuk mempelajari:
   - Mengenal perbedaan beberapa IAM Role terkait App Engine, contohnya App Engine Code Viewer dengan App Engine Deployer.
 
-### 2. Maintenance
+### 2. Compute Engine
+- [Automatically apply VM configuration updates in a MIG](https://cloud.google.com/compute/docs/instance-groups/rolling-out-updates-to-managed-instance-groups) untuk mempelajari:
+  - Bagaimana update VM didalam Managed Instance Groups.
+  - Perbedaan proactive dengan opportunistic update.
+  - Bagaimana memanfaatkan maximum surge dan maximum unavailable agar VM yang diupdate kapasitasnya tidak berkurang dan tetap bisa menghandle request dari user.
+  - Canary dan rolling update didalam Managed Instance Groups.
+  - Rolling back update ketika update versi terbaru ditemukan masalah ataupun bug di aplikasinya.
+  - Preserve nama instance.
 
-
-### 3. Kubernetes
-- [Node pools](https://cloud.google.com/kubernetes-engine/docs/concepts/node-pools) dan resizing a cluster https://cloud.google.com/kubernetes-engine/docs/how-to/resizing-a-cluster) untuk mempelajari:
-  - Apa itu node pools.
-  - Resize cluster dan node pools.
-
-https://cloud.google.com/kubernetes-engine/docs/concepts/cluster-upgrades-autopilot
-https://cloud.google.com/kubernetes-engine/docs/concepts/cluster-upgrades
-https://cloud.google.com/kubernetes-engine/docs/concepts/maintenance-windows-and-exclusions
-
-
-https://cloud.google.com/kubernetes-engine/docs/concepts/sandbox-pods
-
---> Security & Update
-https://cloud.google.com/kubernetes-engine/docs/concepts/access-control
-
-App Engine Standard & Flex
-https://cloud.google.com/appengine/docs/the-appengine-environments
-https://cloud.google.com/appengine/docs/standard/python/how-instances-are-managed
-
-Etc.
-https://cloud.google.com/compute/docs/instance-groups/rolling-out-updates-to-managed-instance-groups
 https://cloud.google.com/resource-manager/docs/moving-projects-folders
 https://cloud.google.com/logging/docs/routing/overview
 https://cloud.google.com/compute/docs/images/create-delete-deprecate-private-images
+
+
+### 3. App Engine
+- [Choose an App Engine environment](https://cloud.google.com/appengine/docs/the-appengine-environments) untuk mempelajari:
+  - Perbedaan App Engine Standard dengan App Engine Flex.
+
+- [How Instances are Managed](https://cloud.google.com/appengine/docs/legacy/standard/python/how-instances-are-managed) untuk mempelajari:
+  - Perbedaan antara automatic, basic dan manual scaling.
+  - Auto scaling berdasarkan apa saja dan apa yang terjadi saat scaling down.
+
+### 4. Kubernetes
+- [Node pools](https://cloud.google.com/kubernetes-engine/docs/concepts/node-pools) dan [resizing a cluster](https://cloud.google.com/kubernetes-engine/docs/how-to/resizing-a-cluster) untuk mempelajari:
+  - Apa itu node pools.
+  - Resize cluster dan node pools.
+
+- [Standard cluster upgrades](https://cloud.google.com/kubernetes-engine/docs/concepts/cluster-upgrades) untuk mempelajari:
+  - Bagaimana upgrade cluster di Google Kubernetes Engine bekerja.
+  - Strategi dalam upgrade node pool (surge dan blue-green).
+  - Perbedaan upgrade manual dan otomatis.
+
+- [Release channels](https://cloud.google.com/kubernetes-engine/docs/concepts/release-channels) dan [maintenance windows and exclusions](https://cloud.google.com/kubernetes-engine/docs/concepts/maintenance-windows-and-exclusions) untuk mempelajari:
+  - Perbedaan release channel, dan release channel apa yang kita akan gunakan.
+  - Mengatur agar Google tidak mengupgrade cluster ditanggal tertentu menggunakan exclusions.
+
+- [GKE Sandbox](https://cloud.google.com/kubernetes-engine/docs/concepts/sandbox-pods) dan [Google Kubernetes Engine access control](https://cloud.google.com/kubernetes-engine/docs/concepts/access-control) untuk mempelajari:
+  - Memproteksi host kernel menggunakan GKE Sandbox.
+  - Perbedaan antara proteksi via IAM dan RBAC.
 
 ## Hands-on Labs (Optional)
 - [Google Cloud Skills Boost](https://www.cloudskillsboost.google/catalog?price%5B%5D=free)
