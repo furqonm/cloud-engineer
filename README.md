@@ -24,7 +24,7 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
 
 ### 4. Exam Readiness
 - [Associate Cloud Engineer Sample Questions](https://docs.google.com/forms/d/e/1FAIpQLSfexWKtXT2OSFJ-obA4iT3GmzgiOCGvjrT9OfxilWC1yPtmfQ/viewform)
-
+- [Contoh Soal](https://docs.google.com/forms/d/e/1FAIpQLSd0l4EGe9zsSjxliBdA0eyvpfpw5SId3LVFKI3MryT3voqnXQ/formResponse)
     > Simulasi ujian via Google Forms untuk mengenali format pertanyaan ujian GCP ACE nanti.
 
 ## Official Documentation
