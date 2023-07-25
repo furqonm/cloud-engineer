@@ -38,8 +38,10 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
   - Perbedaan proactive dan opportunistic update.
   - Perbedaan canary dan rolling-update.
 
-- [About OS Login](https://cloud.google.com/compute/docs/oslogin/) dan [Set up OS Login](https://cloud.google.com/compute/docs/oslogin/set-up-oslogin) untuk mempelajari:
+- [About OS Login](https://cloud.google.com/compute/docs/oslogin/) untuk mempelajari:
   - Apa itu OS Login.
+
+- [Set up OS Login](https://cloud.google.com/compute/docs/oslogin/set-up-oslogin) untuk mempelajari:
   - Perbedaan roles/compute.osLogin dan roles/compute.osAdminLogin.
 
 - [Access control overview](https://cloud.google.com/compute/docs/access) untuk mempelajari:
@@ -59,9 +61,11 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
   - Apakah App Engine Viewer bisa melihat source code, atau App Engine Code Viewer yang bisa.
 
 ### 3. Kubernetes
-- [Node pools](https://cloud.google.com/kubernetes-engine/docs/concepts/node-pools) dan [resizing a cluster](https://cloud.google.com/kubernetes-engine/docs/how-to/resizing-a-cluster) untuk mempelajari:
+- [Node pools](https://cloud.google.com/kubernetes-engine/docs/concepts/node-pools) untuk mempelajari:
   - Apa itu node pools.
-  - Resize cluster dan node pools.
+
+- [Resize a Standard cluster](https://cloud.google.com/kubernetes-engine/docs/how-to/resizing-a-cluster) untuk mempelajari:
+  - Cara resize cluster dan node pools.
 
 - [Standard cluster upgrades](https://cloud.google.com/kubernetes-engine/docs/concepts/cluster-upgrades) untuk mempelajari:
   - Bagaimana upgrade cluster di Google Kubernetes Engine bekerja.
@@ -75,8 +79,10 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
 - [Maintenance windows and exclusions](https://cloud.google.com/kubernetes-engine/docs/concepts/maintenance-windows-and-exclusions) untuk mempelajari:
   - Mengatur agar GKE tidak mengupgrade cluster ditanggal tertentu menggunakan exclusions.
 
-- [GKE Sandbox](https://cloud.google.com/kubernetes-engine/docs/concepts/sandbox-pods) dan [Google Kubernetes Engine access control](https://cloud.google.com/kubernetes-engine/docs/concepts/access-control) untuk mempelajari:
+- [GKE Sandbox](https://cloud.google.com/kubernetes-engine/docs/concepts/sandbox-pods) untuk mempelajari:
   - Apa itu GKE Sandbox.
+
+- [Google Kubernetes Engine access control](https://cloud.google.com/kubernetes-engine/docs/concepts/access-control) untuk mempelajari:
   - Perbedaan antara proteksi via IAM dan RBAC.
 
 ### 4. BigQuery
