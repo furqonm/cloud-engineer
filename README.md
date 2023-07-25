@@ -1,4 +1,4 @@
-# Preparation for GCP Associate Cloud Engineer (ACE) Certification
+# Preparation for Google Associate Cloud Engineer (ACE) Certification
 _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan materi belajar. Sumber belajar yang saya dokumentasikan sendiri ini tidak merepresentasikan informasi resmi dari pihak Google Cloud, meskipun beberapa link dan material bersumber resmi dari Google Cloud._
 
 ---
@@ -25,63 +25,78 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
 ### 4. Exam Readiness
 - [Associate Cloud Engineer Sample Questions](https://docs.google.com/forms/d/e/1FAIpQLSfexWKtXT2OSFJ-obA4iT3GmzgiOCGvjrT9OfxilWC1yPtmfQ/viewform)
 - [Contoh Soal](https://docs.google.com/forms/d/e/1FAIpQLSd0l4EGe9zsSjxliBdA0eyvpfpw5SId3LVFKI3MryT3voqnXQ/formResponse)
-    > Simulasi ujian via Google Forms untuk mengenali format pertanyaan ujian GCP ACE nanti.
+    > Simulasi ujian via Google Forms untuk mengenali format pertanyaan ujian Google Cloud ACE nanti.
 
 ## Official Documentation
-### 1. Permission
-- [Cloud Billing: Access control & permissions](https://cloud.google.com/billing/docs/how-to/billing-access) untuk mempelajari:
-  - Bagaimana billing di Google Cloud bekerja.
-  - Mengenal perbedaan beberapa IAM Role terkait Cloud Billing, contohnya Billing Account User dengan Billing Account Administrator.
-
-- [Big Query: Access control with IAM](https://cloud.google.com/bigquery/docs/access-control) untuk mempelajari:
-  - Scope penerapan Role, bisa di project, dataset, atau table/view.
-  - Mengenal perbedaan beberapa IAM Role terkait Big Query, contohnya BigQuery Data Editor dengan BigQuery Job User.
-
-- [Compute Engine: Access control overview](https://cloud.google.com/compute/docs/access) untuk mempelajari:
-  - Mengenal perbedaan beberapa IAM Role terkait Compute Engine, contohnya Compute Engine Network Admin dengan Compute Engine Security Admin.
-
-- [App Engine: Roles that grant access](https://cloud.google.com/appengine/docs/standard/python/roles) untuk mempelajari:
-  - Mengenal perbedaan beberapa IAM Role terkait App Engine, contohnya App Engine Code Viewer dengan App Engine Deployer.
-
-### 2. Compute Engine
+### 1. Compute Engine
 - [Automatically apply VM configuration updates in a MIG](https://cloud.google.com/compute/docs/instance-groups/rolling-out-updates-to-managed-instance-groups) untuk mempelajari:
-  - Bagaimana update VM didalam Managed Instance Groups.
-  - Perbedaan proactive dengan opportunistic update.
-  - Bagaimana memanfaatkan maximum surge dan maximum unavailable agar VM yang diupdate kapasitasnya tidak berkurang dan tetap bisa menghandle request dari user.
-  - Canary dan rolling update didalam Managed Instance Groups.
-  - Rolling back update ketika update versi terbaru ditemukan masalah ataupun bug di aplikasinya.
-  - Preserve nama instance.
+  - Bagaimana update VM di Managed Instance Groups bekerja.
+  - Bagaimana memanfaatkan maximum surge dan maximum unavailable agar:
+    - Kapasitas VM tidak berkurang untuk menghandle request dari user.
+    - Update yang dilakukan tidak mengeluarkan biaya tambahan.
+  - Bagaimana rolling-back setelah update karena ditemukan bug pada aplikasi versi terbaru.
+  - Perbedaan proactive dan opportunistic update.
+  - Perbedaan canary dan rolling-update.
 
-https://cloud.google.com/resource-manager/docs/moving-projects-folders
-https://cloud.google.com/logging/docs/routing/overview
-https://cloud.google.com/compute/docs/images/create-delete-deprecate-private-images
+- [About OS Login](https://cloud.google.com/compute/docs/oslogin/) dan [Set up OS Login](https://cloud.google.com/compute/docs/oslogin/set-up-oslogin) untuk mempelajari:
+  - Apa itu OS Login.
+  - Perbedaan roles/compute.osLogin dan roles/compute.osAdminLogin.
 
+- [Access control overview](https://cloud.google.com/compute/docs/access) untuk mempelajari:
+  - Perbedaan beberapa IAM Role, contohnya Compute Engine Network Admin dan Compute Engine Security Admin.
 
-### 3. App Engine
+### 2. App Engine
 - [Choose an App Engine environment](https://cloud.google.com/appengine/docs/the-appengine-environments) untuk mempelajari:
-  - Perbedaan App Engine Standard dengan App Engine Flex.
+  - Perbedaan App Engine Standard dan App Engine Flex.
 
-- [How Instances are Managed](https://cloud.google.com/appengine/docs/legacy/standard/python/how-instances-are-managed) untuk mempelajari:
-  - Perbedaan antara automatic, basic dan manual scaling.
-  - Auto scaling berdasarkan apa saja dan apa yang terjadi saat scaling down.
+- [How instances are managed](https://cloud.google.com/appengine/docs/standard/how-instances-are-managed) untuk mempelajari:
+  - Perbedaan automatic, basic dan manual scaling.
+  - App Engine bisa auto scaling berdasarkan apa, contohnya CPU utilization, concurrent request, dan throughput.
+  - Apa yang terjadi dengan App Engine ketika startup dan shutdown.
 
-### 4. Kubernetes
+- [Roles that grant access](https://cloud.google.com/appengine/docs/standard/roles) untuk mempelajari:
+  - Perbedaan beberapa IAM Role, contohnya App Engine Service Admin dan App Engine Deployer.
+  - Apakah App Engine Viewer bisa melihat source code, atau App Engine Code Viewer yang bisa.
+
+### 3. Kubernetes
 - [Node pools](https://cloud.google.com/kubernetes-engine/docs/concepts/node-pools) dan [resizing a cluster](https://cloud.google.com/kubernetes-engine/docs/how-to/resizing-a-cluster) untuk mempelajari:
   - Apa itu node pools.
   - Resize cluster dan node pools.
 
 - [Standard cluster upgrades](https://cloud.google.com/kubernetes-engine/docs/concepts/cluster-upgrades) untuk mempelajari:
   - Bagaimana upgrade cluster di Google Kubernetes Engine bekerja.
-  - Strategi dalam upgrade node pool (surge dan blue-green).
+  - Apa saja strategi dalam upgrade node pool, contohnya surge upgrades vs. blue-green upgrades.
   - Perbedaan upgrade manual dan otomatis.
 
-- [Release channels](https://cloud.google.com/kubernetes-engine/docs/concepts/release-channels) dan [maintenance windows and exclusions](https://cloud.google.com/kubernetes-engine/docs/concepts/maintenance-windows-and-exclusions) untuk mempelajari:
-  - Perbedaan release channel, dan release channel apa yang kita akan gunakan.
-  - Mengatur agar Google tidak mengupgrade cluster ditanggal tertentu menggunakan exclusions.
+- [Release channels](https://cloud.google.com/kubernetes-engine/docs/concepts/release-channels) untuk mempelajari:
+  - Apa perbedaan release channel.
+  - Menentukan release channel yang akan digunakan.
+
+- [Maintenance windows and exclusions](https://cloud.google.com/kubernetes-engine/docs/concepts/maintenance-windows-and-exclusions) untuk mempelajari:
+  - Mengatur agar GKE tidak mengupgrade cluster ditanggal tertentu menggunakan exclusions.
 
 - [GKE Sandbox](https://cloud.google.com/kubernetes-engine/docs/concepts/sandbox-pods) dan [Google Kubernetes Engine access control](https://cloud.google.com/kubernetes-engine/docs/concepts/access-control) untuk mempelajari:
-  - Memproteksi host kernel menggunakan GKE Sandbox.
+  - Apa itu GKE Sandbox.
   - Perbedaan antara proteksi via IAM dan RBAC.
+
+### 4. BigQuery
+- [Introduction to BigQuery jobs](https://cloud.google.com/bigquery/docs/jobs-overview) untuk mempelajari:
+  - Apa itu job.
+
+- [Access control with IAM](https://cloud.google.com/bigquery/docs/access-control) untuk mempelajari:
+  - Perbedaan level penerapan IAM Role, bisa di project, dataset, atau table/view.
+  - Perbedaan beberapa IAM Role, contohnya BigQuery Data Viewer, BigQuery User, BigQuery Job User.
+
+### 5. Others
+- [Cloud Billing: Access control & permissions](https://cloud.google.com/billing/docs/how-to/billing-access) untuk mempelajari:
+  - Bagaimana billing account bekerja, berikut hubungannya dengan project.
+  - Perbedaan beberapa IAM Role untuk billing account, contohnya Billing Account User, Project Billing Manager dan Billing Account Administrator.
+
+- [Cloud Logging: Routing and storage overview](https://cloud.google.com/logging/docs/routing/overview) untuk mempelajari:
+  - Bagaimana mengatur agar log bisa disimpan kedalam BigQuery untuk diolah disana atau Cloud Storage untuk archival.
+
+- [Moving a project](https://cloud.google.com/resource-manager/docs/moving-projects-folders) untuk mempelajari:
+  - Bagaimana memindahkan project.
 
 ## Hands-on Labs (Optional)
 - [Google Cloud Skills Boost](https://www.cloudskillsboost.google/catalog?price%5B%5D=free)
