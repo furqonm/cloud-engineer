@@ -17,19 +17,19 @@
 - [gcloud container node-pools create](https://cloud.google.com/sdk/gcloud/reference/container/node-pools/create).
 - [gcloud container node-pools update](https://cloud.google.com/sdk/gcloud/reference/container/node-pools/update).
 - [gcloud container node-pools rollback](https://cloud.google.com/sdk/gcloud/reference/container/node-pools/rollback).
-Kubectl --> deploy pod/deployment, auto scaling, expose deployment
+- Kubectl --> deploy pod/deployment, auto scaling, expose deployment
 
-APP ENGINE
-https://cloud.google.com/sdk/gcloud/reference/app/create
-https://cloud.google.com/sdk/gcloud/reference/app/deploy
-https://cloud.google.com/sdk/gcloud/reference/app/browse
-https://cloud.google.com/sdk/gcloud/reference/app/services/set-traffic
-https://cloud.google.com/sdk/gcloud/reference/app/versions/migrate
-https://cloud.google.com/sdk/gcloud/reference/app/update
+### App Engine
+- [gcloud app create](https://cloud.google.com/sdk/gcloud/reference/app/create).
+- [gcloud app deploy](https://cloud.google.com/sdk/gcloud/reference/app/deploy).
+- [gcloud app browse](https://cloud.google.com/sdk/gcloud/reference/app/browse).
+- [gcloud app services set-traffic](https://cloud.google.com/sdk/gcloud/reference/app/services/set-traffic).
+- [gcloud app versions migrate](https://cloud.google.com/sdk/gcloud/reference/app/versions/migrate).
+- [gcloud app update](https://cloud.google.com/sdk/gcloud/reference/app/update).
 
-NETWORK & FIREWALL
-https://cloud.google.com/sdk/gcloud/reference/compute/networks/create
-https://cloud.google.com/sdk/gcloud/reference/compute/networks/subnets/create
-https://cloud.google.com/sdk/gcloud/reference/compute/networks/subnets/update
-https://cloud.google.com/sdk/gcloud/reference/compute/firewall-rules/create
-https://cloud.google.com/sdk/gcloud/reference/compute/firewall-rules/update
+### VPC & Firewall
+- [gcloud compute networks create](https://cloud.google.com/sdk/gcloud/reference/compute/networks/create).
+- [gcloud compute networks subnets create](https://cloud.google.com/sdk/gcloud/reference/compute/networks/subnets/create).
+- [gcloud compute networks subnets update](https://cloud.google.com/sdk/gcloud/reference/compute/networks/subnets/update).
+- [gcloud compute firewall-rules create](https://cloud.google.com/sdk/gcloud/reference/compute/firewall-rules/create).
+- [gcloud compute firewall-rules update](https://cloud.google.com/sdk/gcloud/reference/compute/firewall-rules/update).
