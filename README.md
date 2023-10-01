@@ -23,9 +23,12 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
     > Membahas 5 domain/section yang akan ditanyakan diujian. Bisa dicek beberapa poin mana yang tidak dimengerti untuk dipelajari lebih lanjut.
 
 ### 4. Exam Readiness
+- [Preparing for Your Associate Cloud Engineer Journey](https://www.cloudskillsboost.google/journeys/11/course_templates/77)
+    > E-learning untuk latihan persiapan ujian Google Cloud Associate Cloud Engineer dari Google Cloud. Materi berisikan eksplorasi topik yang keluar di ujian dan beberapa contoh soal ujian.
+
 - [Associate Cloud Engineer Sample Questions](https://docs.google.com/forms/d/e/1FAIpQLSfexWKtXT2OSFJ-obA4iT3GmzgiOCGvjrT9OfxilWC1yPtmfQ/viewform)
 - [Contoh Soal](https://docs.google.com/forms/d/e/1FAIpQLSd0l4EGe9zsSjxliBdA0eyvpfpw5SId3LVFKI3MryT3voqnXQ/formResponse)
-    > Simulasi ujian via Google Forms untuk mengenali format pertanyaan ujian Google Cloud ACE nanti.
+    > Simulasi ujian via Google Forms untuk mengenali format pertanyaan ujian Google Cloud Associate Cloud Engineer nanti.
 
 ## Official Documentation
 ### 1. Compute Engine
