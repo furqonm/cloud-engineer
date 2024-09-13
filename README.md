@@ -12,6 +12,7 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
 
 ### 2. Kubernetes Course
 - [Belajar Kubernetes untuk Pemula](https://www.youtube.com/playlist?list=PL-CtdCApEFH8XrWyQAyRd6d_CKwxD8Ime)
+- [Getting Started with Google Kubernetes Engine](https://www.cloudskillsboost.google/paths/11/course_templates/2)
     > Video untuk mempelajari untuk memperkuat konsep dasar tentang Kubernetes.
 
 ### 3. Exam Guide
