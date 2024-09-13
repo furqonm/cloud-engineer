@@ -87,15 +87,30 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
 - [Google Kubernetes Engine access control](https://cloud.google.com/kubernetes-engine/docs/concepts/access-control) untuk mempelajari:
   - Perbedaan antara proteksi via IAM dan RBAC.
 
-### 4. BigQuery
+### 4. Cloud Storage
+- [Storage classes](https://cloud.google.com/storage/docs/storage-classes) untuk mempelajari:
+  - Perbedaan storage class.
+
+- [Object Lifecycle Management](https://cloud.google.com/storage/docs/lifecycle) untuk mempelajari:
+  - Apa itu object lifecycle management.
+  - Melakukan konfigurasi berdasarkan lifecycle actions dan lifecycle conditions.
+
+- [Object Retention Lock](https://cloud.google.com/storage/docs/object-lock) untuk mempelajari:
+  - Kegunaan object lock dan use case-nya.
+
+- [IAM roles for Cloud Storage](https://cloud.google.com/storage/docs/access-control/iam-roles) untuk mempelajari:
+  - Perbedaan beberapa IAM Role, contohnya Storage Object Creator, Storage Object Viewer, Storage Object User, Storage Object Admin, dan Storage Admin.
+
+### 5. BigQuery
 - [Introduction to BigQuery jobs](https://cloud.google.com/bigquery/docs/jobs-overview) untuk mempelajari:
   - Apa itu job.
 
 - [Access control with IAM](https://cloud.google.com/bigquery/docs/access-control) untuk mempelajari:
   - Perbedaan level penerapan IAM Role, bisa di project, dataset, atau table/view.
-  - Perbedaan beberapa IAM Role, contohnya BigQuery Data Viewer, BigQuery User, BigQuery Job User.
+  - Perbedaan beberapa IAM Role, contohnya BigQuery Data Viewer, BigQuery User, dan BigQuery Job User.
 
-### 5. Others
+
+### 6. Others
 - [Cloud Billing: Access control & permissions](https://cloud.google.com/billing/docs/how-to/billing-access) untuk mempelajari:
   - Bagaimana billing account bekerja, berikut hubungannya dengan project.
   - Perbedaan beberapa IAM Role untuk billing account, contohnya Billing Account User, Project Billing Manager dan Billing Account Administrator.
