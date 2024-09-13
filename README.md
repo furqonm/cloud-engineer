@@ -4,30 +4,29 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
 ---
 ## Exam Preparation Materials
 ### 1. Google Cloud Course
+- [Google Cloud Fundamentals: Core Infrastructure](https://www.cloudskillsboost.google/paths/11/course_templates/60)
+    > Video untuk memperkuat konsep dasar dan beberapa service yang sering digunakan di Google Cloud. Materi ini bersifat fundamental dan cocok untuk pemula didunia cloud. 
+
 - [Google Cloud Associate Cloud Engineer Course - Pass the Exam!](https://www.youtube.com/watch?v=jpno8FSqpc8) **(Unofficial)**
-
-    > Video material dari Antoni Tzavelas di freecodecamp. Silahkan dipelajari untuk memperkuat konsep dasar Google Cloud, dimana materi ini cocok untuk pemula dan terdapat beberapa demo yang ditampilkan.
-
-- [Google Cloud Associate Cloud Engineer - The Certified Q&A for GCP](https://www.youtube.com/playlist?list=PLQMsfKRZZviRwqJwNmh1eAWnRMvlrk40x) **(Unofficial)**
-
-    > Video material dari AwesomeGCP. Silahkan dipelajari untuk pembahasan contoh soal yang mungkin diujikan nanti.
+    > Video ini menjelaskan cukup lengkap beserta demo untuk service yang akan diujikan di exam Google Cloud.
 
 ### 2. Kubernetes Course
 - [Belajar Kubernetes untuk Pemula](https://www.youtube.com/playlist?list=PL-CtdCApEFH8XrWyQAyRd6d_CKwxD8Ime)
-
-    > Video material dari Programmer Zaman Now. Silahkan dipelajari untuk memperkuat konsep dasar tentang Kubernetes.
+    > Video untuk mempelajari untuk memperkuat konsep dasar tentang Kubernetes.
 
 ### 3. Exam Guide
 - [Associate Cloud Engineer: Certification Exam Guide](https://cloud.google.com/certification/guides/cloud-engineer?skip_cache=true)
-
-    > Membahas 5 domain/section yang akan ditanyakan diujian. Bisa dicek beberapa poin mana yang tidak dimengerti untuk dipelajari lebih lanjut.
+    > Membahas 5 domain/section yang akan ditanyakan diexam. Bisa dicek beberapa poin mana yang tidak dimengerti untuk dipelajari lebih lanjut.
 
 ### 4. Exam Readiness
 - [Preparing for Your Associate Cloud Engineer Journey](https://www.cloudskillsboost.google/journeys/11/course_templates/77)
-    > E-learning untuk latihan persiapan ujian Google Cloud Associate Cloud Engineer dari Google Cloud. Materi berisikan eksplorasi topik yang keluar di ujian dan beberapa contoh soal ujian.
+    > E-learning untuk latihan persiapan exam Google Cloud Associate Cloud Engineer dari Google Cloud. Materi berisikan eksplorasi topik yang keluar di exam dan beberapa contoh soal exam.
 
 - [Associate Cloud Engineer Sample Questions](https://docs.google.com/forms/d/e/1FAIpQLSfexWKtXT2OSFJ-obA4iT3GmzgiOCGvjrT9OfxilWC1yPtmfQ/viewform)
-    > Simulasi ujian via Google Forms untuk mengenali format pertanyaan ujian Google Cloud Associate Cloud Engineer nanti.
+    > Simulasi exam via Google Forms untuk mengenali format pertanyaan exam Google Cloud Associate Cloud Engineer nanti.
+
+- [Google Cloud Associate Cloud Engineer - The Certified Q&A for GCP](https://www.youtube.com/playlist?list=PLQMsfKRZZviRwqJwNmh1eAWnRMvlrk40x) **(Unofficial)**
+    > Video berisikan contoh soal dan pembahasan jawabannya.
 
 ## Official Documentation
 ### 1. Compute Engine
@@ -108,16 +107,13 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
 
 ## Hands-on Labs (Optional)
 - [Google Cloud Skills Boost](https://www.cloudskillsboost.google/catalog?price%5B%5D=free)
-
     > Kumpulan lab Google Cloud yang disediakan gratis. Untuk mencoba bisa mendaftar menggunakan akun Google kita.
 
 - [Play with Docker](https://labs.play-with-docker.com/)
 - [Kubernetes: Hello Minikube](https://kubernetes.io/docs/tutorials/hello-minikube/)
-
     > Hands-on Labs gratis untuk belajar Docker dan Kubernetes. Lab berjalan di browser tanpa memerlukan instalasi.
 
 ## Additional Material (Optional)
 ### 1. Infrastructure as Code (IAC)
 - [HashiCorp Terraform Associate Certification Course - Pass the Exam!](https://www.youtube.com/watch?v=V4waklkBC38&ab_channel=freeCodeCamp.org) **(Unofficial)**
-
-    > Video material dari Andrew Brown (ExamPro) di freecodecamp. Silahkan dipelajari untuk mempelajari Terraform dan mempersiapkan ujian HashiCorp Certified: Terraform Associate.
+    > Video untuk mempelajari Terraform dan materi ini tidak akan keluar dalam exam Google sama sekali. Materi ini digunakan untuk mempersiapkan exam HashiCorp Certified: Terraform Associate.
