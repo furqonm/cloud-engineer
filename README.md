@@ -1,4 +1,4 @@
-# Preparation for Google Associate Cloud Engineer (ACE) Certification
+# Preparation for Google Cloud Associate Cloud Engineer (ACE) Certification
 _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan materi belajar. Sumber belajar yang saya dokumentasikan sendiri ini tidak merepresentasikan informasi resmi dari pihak Google Cloud, meskipun beberapa link dan material bersumber resmi dari Google Cloud._
 
 ---
