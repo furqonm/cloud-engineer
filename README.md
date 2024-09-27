@@ -17,7 +17,7 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
 
 ### 3. Exam Guide
 - [Associate Cloud Engineer: Certification Exam Guide](https://cloud.google.com/certification/guides/cloud-engineer?skip_cache=true)
-    > Membahas 5 domain/section yang akan ditanyakan diexam. Bisa dicek beberapa poin mana yang tidak dimengerti untuk dipelajari lebih lanjut.
+    > Membahas 5 domain/section yang akan ditanyakan di exam. Bisa dicek beberapa poin mana yang tidak dimengerti untuk dipelajari lebih lanjut.
 
 ### 4. Exam Readiness
 - [Preparing for Your Associate Cloud Engineer Journey](https://www.cloudskillsboost.google/journeys/11/course_templates/77)
@@ -108,7 +108,6 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
 - [Access control with IAM](https://cloud.google.com/bigquery/docs/access-control) untuk mempelajari:
   - Perbedaan level penerapan IAM Role, bisa di project, dataset, atau table/view.
   - Perbedaan beberapa IAM Role, contohnya BigQuery Data Viewer, BigQuery User, dan BigQuery Job User.
-
 
 ### 6. Others
 - [Cloud Billing: Access control & permissions](https://cloud.google.com/billing/docs/how-to/billing-access) untuk mempelajari:
