@@ -11,9 +11,9 @@ _[DISCLAIMER] Links dan materials yang ada disini dipergunakan untuk tambahan ma
     > Video ini menjelaskan cukup lengkap beserta demo untuk service yang akan diujikan di exam Google Cloud.
 
 ### 2. Kubernetes Course
-- [Belajar Kubernetes untuk Pemula](https://www.youtube.com/playlist?list=PL-CtdCApEFH8XrWyQAyRd6d_CKwxD8Ime) **(Unofficial)**
+- [Introduction to Container and Kubernetes in Google Cloud Platform](https://www.youtube.com/watch?v=JKBANQEwMgI) **(Unofficial)**
 - [Getting Started with Google Kubernetes Engine](https://www.cloudskillsboost.google/paths/11/course_templates/2)
-    > Video untuk mempelajari untuk memperkuat konsep dasar tentang Kubernetes.
+    > Video untuk mempelajari untuk memperkuat konsep dasar tentang Kubernetes di Google Cloud.
 
 ### 3. Exam Guide
 - [Associate Cloud Engineer: Certification Exam Guide](https://cloud.google.com/certification/guides/cloud-engineer?skip_cache=true)
