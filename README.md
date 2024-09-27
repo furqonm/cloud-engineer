@@ -1,5 +1,5 @@
 # Persiapan untuk Sertifikasi Google Cloud Associate Cloud Engineer (ACE)
-_[DISCLAIMER] Tautan dan materi yang terdapat di sini disediakan sebagai tambahan untuk pembelajaran. Sumber-sumber belajar yang saya dokumentasikan sendiri ini tidak mewakili informasi resmi dari pihak Google Cloud, meskipun beberapa tautan dan materi berasal dari sumber resmi Google Cloud._
+_[DISCLAIMER] Tautan dan materi yang disediakan di sini bertujuan sebagai sumber tambahan untuk pembelajaran. Materi yang saya dokumentasikan secara pribadi ini tidak mewakili informasi resmi dari Google Cloud, meskipun beberapa di antaranya berasal dari sumber resmi Google Cloud. Adapun materi tidak resmi menunjukkan bahwa konten tersebut bukanlah informasi langsung dari pihak Google._
 
 ---
 ## Materi Persiapan Ujian
