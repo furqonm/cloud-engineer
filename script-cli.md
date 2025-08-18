@@ -1,82 +1,82 @@
 ### Project
 - [gcloud projects create](https://cloud.google.com/sdk/gcloud/reference/projects/create).
-    > **Penjelasan:** Memahami cara membuat proyek baru di Google Cloud adalah keterampilan dasar yang sangat penting karena semua sumber daya dikelola dalam konteks proyek. Pastikan untuk menguasai cara membuat proyek baru menggunakan `gcloud` dan pahami konsep seperti Project ID, Name, dan Number.
+  > **Explanation:** Understanding how to create a new project in Google Cloud is a critical foundational skill, as all resources are managed within a project's context. Be sure to master how to create a new project using `gcloud` and understand concepts like Project ID, Name, and Number.
 
 - [gcloud projects list](https://cloud.google.com/sdk/gcloud/reference/projects/list).
-    > **Penjelasan:** Saat bekerja dengan beberapa proyek, penting untuk dapat melihat daftar proyek yang tersedia dalam satu akun. Ini membantu dalam navigasi dan manajemen proyek secara efisien.
+  > **Explanation:** When working with multiple projects, it's essential to be able to see a list of the available projects within a single account. This helps with efficient project navigation and management.
 
 - [gcloud projects update](https://cloud.google.com/sdk/gcloud/reference/projects/update).
-    > **Penjelasan:** Mempelajari cara memperbarui proyek yang ada, seperti mengubah metadata proyek. Dalam beberapa kasus, metadata yang tepat dapat memengaruhi kebijakan akses dan penggunaan sumber daya.
+  > **Explanation:** Learn how to update an existing project, such as changing project metadata. In some cases, proper metadata can affect access policies and resource usage.
 
 ### Config
 - [gcloud config configurations](https://cloud.google.com/sdk/gcloud/reference/config/configurations).
-    > **Penjelasan:** Dalam ujian, seringkali perlu bekerja di berbagai konfigurasi dan lingkungan. Memahami cara membuat, mengelola, dan mengganti konfigurasi `gcloud` akan sangat membantu ketika berpindah antar proyek atau akun.
+  > **Explanation:** In exams, it's often necessary to work in various configurations and environments. Understanding how to create, manage, and switch `gcloud` configurations is extremely helpful when moving between different projects or accounts.
 
 - [gcloud config configurations create](https://cloud.google.com/sdk/gcloud/reference/config/configurations/create).
-    > **Penjelasan:** Membuat konfigurasi baru memungkinkan pengguna mengisolasi pengaturan untuk proyek atau akun yang berbeda, yang sangat penting dalam pengelolaan multi-lingkungan atau multi-tim.
+  > **Explanation:** Creating a new configuration allows users to isolate settings for different projects or accounts, which is crucial for managing multi-environment or multi-team setups.
 
 - [gcloud config configurations list](https://cloud.google.com/sdk/gcloud/reference/config/configurations/list).
-    > **Penjelasan:** Mengetahui cara melihat daftar konfigurasi membantu dalam pengelolaan konfigurasi yang telah dibuat dan dalam menentukan konfigurasi mana yang aktif.
+  > **Explanation:** Knowing how to list configurations helps in managing created configurations and in determining which configuration is currently active.
 
 - [gcloud config configurations activate](https://cloud.google.com/sdk/gcloud/reference/config/configurations/activate).
-    > **Penjelasan:** Mengaktifkan konfigurasi tertentu memungkinkan pengguna untuk dengan cepat berpindah antara konfigurasi saat bekerja di berbagai proyek atau akun.
+  > **Explanation:** Activating a specific configuration allows users to quickly switch between configurations when working on various projects or accounts.
 
 - [gcloud config set](https://cloud.google.com/sdk/gcloud/reference/config/set).
-    > **Penjelasan:** Perintah ini memungkinkan pengguna untuk mengatur nilai tertentu dalam konfigurasi saat ini, seperti proyek aktif atau region default.
+  > **Explanation:** This command allows users to set a specific value in the current configuration, such as the active project or default region.
 
 ### Kubernetes
 - [gcloud container clusters create](https://cloud.google.com/sdk/gcloud/reference/container/clusters/create).
-    > **Penjelasan:** Penting untuk memahami cara membuat kluster Kubernetes di Google Kubernetes Engine (GKE). Ini termasuk pengaturan seperti jumlah node, lokasi, dan konfigurasi jaringan.
+  > **Explanation:** It's important to understand how to create a Kubernetes cluster in Google Kubernetes Engine (GKE). This includes settings like the number of nodes, location, and network configuration.
 
 - [gcloud container clusters update](https://cloud.google.com/sdk/gcloud/reference/container/clusters/update).
-    > **Penjelasan:** Setelah kluster dibuat, kemampuan untuk memperbaruinya (misalnya mengubah ukuran atau pengaturan lainnya) akan sering diuji dalam skenario ujian.
+  > **Explanation:** Once a cluster is created, the ability to update it (e.g., changing its size or other settings) is often tested in exam scenarios.
 
 - [gcloud container clusters upgrade](https://cloud.google.com/sdk/gcloud/reference/container/clusters/upgrade).
-    > **Penjelasan:** Meng-upgrade kluster Kubernetes adalah proses penting dalam menjaga keamanan dan stabilitas kluster. Pahami cara melakukan upgrade versi Kubernetes dan manajemen upgrade node.
+  > **Explanation:** Upgrading a Kubernetes cluster is an important process for maintaining cluster security and stability. Understand how to perform a Kubernetes version upgrade and manage node upgrades.
 
 - [gcloud container node-pools create](https://cloud.google.com/sdk/gcloud/reference/container/node-pools/create).
-    > **Penjelasan:** Node pool memungkinkan manajemen set node dalam kluster GKE. Memahami cara membuat node pool adalah keterampilan penting dalam pengelolaan kluster yang efisien.
+  > **Explanation:** Node pools allow for the management of sets of nodes within a GKE cluster. Understanding how to create a node pool is a key skill for efficient cluster management.
 
 - [gcloud container node-pools update](https://cloud.google.com/sdk/gcloud/reference/container/node-pools/update).
-    > **Penjelasan:** Memperbarui node pool sangat penting untuk mengubah konfigurasi seperti jenis mesin atau ukuran node.
+  > **Explanation:** Updating a node pool is critical for changing configurations like machine type or node size.
 
 - [gcloud container node-pools rollback](https://cloud.google.com/sdk/gcloud/reference/container/node-pools/rollback).
-    > **Penjelasan:** Rollback node pool memungkinkan pengembalian ke konfigurasi sebelumnya jika terjadi kesalahan saat pembaruan, sebuah langkah penting dalam strategi DevOps dan CI/CD.
+  > **Explanation:** Rolling back a node pool allows for a return to a previous configuration if an error occurs during an update, a crucial step in DevOps and CI/CD strategies.
 
 - Kubectl --> deploy pod/deployment, auto scaling, expose deployment
-    > **Penjelasan:** Ketahui dasar-dasar `kubectl` untuk pengelolaan kluster Kubernetes, termasuk cara men-deploy aplikasi, menskalakan otomatis, dan mengekspose deployment ke internet. Ini adalah keterampilan fundamental yang sering diuji dalam konteks manajemen beban kerja di Kubernetes.
+  > **Explanation:** Know the basics of `kubectl` for Kubernetes cluster management, including how to deploy applications, auto-scale, and expose deployments to the internet. These are fundamental skills often tested in the context of workload management in Kubernetes.
 
 ### App Engine
 - [gcloud app create](https://cloud.google.com/sdk/gcloud/reference/app/create).
-    > **Penjelasan:** App Engine memungkinkan deployment aplikasi secara otomatis. Pahami cara membuat aplikasi baru di App Engine, terutama perbedaan antara App Engine Standard dan Flexible Environment.
+  > **Explanation:** App Engine allows for automated application deployment. Understand how to create a new application in App Engine, especially the difference between the App Engine Standard and Flexible Environments.
 
 - [gcloud app deploy](https://cloud.google.com/sdk/gcloud/reference/app/deploy).
-    > **Penjelasan:** Kemampuan untuk men-deploy aplikasi ke App Engine secara efisien adalah keterampilan penting yang diuji dalam ujian. Pastikan memahami proses deployment, serta bagaimana file `app.yaml` berfungsi.
+  > **Explanation:** The ability to efficiently deploy an application to App Engine is a key skill tested in exams. Be sure to understand the deployment process, as well as how the `app.yaml` file functions.
 
 - [gcloud app browse](https://cloud.google.com/sdk/gcloud/reference/app/browse).
-    > **Penjelasan:** Mengetahui cara membuka aplikasi yang telah di-deploy dalam browser memungkinkan pengguna untuk segera memeriksa status deployment.
+  > **Explanation:** Knowing how to open a deployed application in a browser allows users to quickly check the deployment status.
 
 - [gcloud app services set-traffic](https://cloud.google.com/sdk/gcloud/reference/app/services/set-traffic).
-    > **Penjelasan:** Manajemen lalu lintas di antara beberapa versi aplikasi sangat penting. Pahami cara mengarahkan lalu lintas ke versi aplikasi tertentu.
+  > **Explanation:** Managing traffic between different versions of an application is very important. Understand how to direct traffic to a specific application version.
 
 - [gcloud app versions migrate](https://cloud.google.com/sdk/gcloud/reference/app/versions/migrate).
-    > **Penjelasan:** Mempersiapkan migrasi antar versi aplikasi memungkinkan pengguna memastikan aplikasi berjalan dengan lancar selama proses upgrade.
+  > **Explanation:** Preparing for migration between application versions allows users to ensure the application runs smoothly during the upgrade process.
 
 - [gcloud app update](https://cloud.google.com/sdk/gcloud/reference/app/update).
-    > **Penjelasan:** Memperbarui aplikasi di App Engine adalah proses penting yang memerlukan pemahaman mendalam tentang konfigurasi aplikasi dan layanan yang dijalankan.
+  > **Explanation:** Updating an application in App Engine is a critical process that requires a deep understanding of the application's configuration and the services it runs.
 
 ### VPC & Firewall
 - [gcloud compute networks create](https://cloud.google.com/sdk/gcloud/reference/compute/networks/create).
-    > **Penjelasan:** Virtual Private Cloud (VPC) adalah tulang punggung jaringan di Google Cloud. Ketahui cara membuat VPC dan pahami konsep seperti mode auto dan custom.
+  > **Explanation:** Virtual Private Cloud (VPC) is the backbone of networking in Google Cloud. Know how to create a VPC and understand concepts like auto and custom modes.
 
 - [gcloud compute networks subnets create](https://cloud.google.com/sdk/gcloud/reference/compute/networks/subnets/create).
-    > **Penjelasan:** Pahami cara membuat subnet dalam jaringan VPC, termasuk konfigurasi seperti region dan rentang IP.
+  > **Explanation:** Understand how to create subnets within a VPC network, including configurations like region and IP range.
 
 - [gcloud compute networks subnets update](https://cloud.google.com/sdk/gcloud/reference/compute/networks/subnets/update).
-    > **Penjelasan:** Memperbarui subnet sangat penting, terutama saat menambahkan rentang IP baru atau mengubah konfigurasi subnet.
+  > **Explanation:** Updating a subnet is very important, especially when adding a new IP range or changing the subnet's configuration.
 
 - [gcloud compute firewall-rules create](https://cloud.google.com/sdk/gcloud/reference/compute/firewall-rules/create).
-    > **Penjelasan:** Mengelola aturan firewall sangat penting untuk menjaga keamanan jaringan. Pahami cara membuat aturan firewall untuk mengizinkan atau menolak lalu lintas masuk dan keluar.
+  > **Explanation:** Managing firewall rules is crucial for network security. Understand how to create firewall rules to allow or deny inbound and outbound traffic.
 
 - [gcloud compute firewall-rules update](https://cloud.google.com/sdk/gcloud/reference/compute/firewall-rules/update).
-    > **Penjelasan:** Memperbarui aturan firewall penting untuk menyesuaikan aturan jaringan seiring perubahan kebutuhan keamanan atau aplikasi.
+  > **Explanation:** Updating firewall rules is important for adapting network rules as security or application needs change.
