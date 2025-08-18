@@ -12,7 +12,7 @@ _[DISCLAIMER] The links and materials provided here are intended as supplementar
   > This is a key resource. It provides a complete overview of the exam topics, often with practical demonstrations of the services.
 
 ### 2. Kubernetes Course
-- [Introduction to Container and Kubernetes in Google Cloud Platform](https://www.youtube.com/watch?v=JKBANQEwMgI)
+- [Docker Containers and Kubernetes Fundamentals – Full Hands-On Course](https://www.youtube.com/watch?v=kTp5xUtcalw&ab_channel=freeCodeCamp.org)
 - [Getting Started with Google Kubernetes Engine](https://www.cloudskillsboost.google/paths/11/course_templates/2)
   > Containers and Kubernetes are crucial topics for the ACE exam. This video helps solidify your understanding of these concepts within the Google Cloud ecosystem.
 
