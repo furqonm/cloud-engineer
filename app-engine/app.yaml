@@ -1,0 +1,25 @@
+runtime: python312               # The name of the runtime environment that is used by your app.
+entrypoint: gunicorn -b :$PORT main:app
+
+instance_class: F1              # The instance class for this service, such as F1, F2, F4, F4_1G.
+service: default                # Name of service, such as Billing, Product, etc.
+
+handlers:                       # URL patterns and how they should be handled. Whetever request handle by executing application code, or by serving static files, such as images, CSS, or JavaScript.
+- url: /                        # Listen to request to root that handled by main.py script.                      
+  script: main.app
+
+automatic_scaling:
+  target_cpu_utilization: 0.65  # CPU utilization threshold for auto scalling a new instances. Input 0.5-0.95, the default is 0.6.
+  min_instances: 0              # Minimum number of instances between 0-1000, value 0 to scaling to 0 instances to lower costs.
+  max_instances: 2              # Maximum number of instances between 0-2147483647, where zero disables the setting.
+  min_pending_latency: 30ms     # Request will wait in the pending queue and App Engine will try to reuse an existing instance.
+  max_pending_latency: 1s       # When this threshold is reached, it is a signal to scale up a new instances.
+
+# basic_scaling:
+#  max_instances: 5
+#  idle_timeout: 10m            # The instance will be shut down this amount of time after receiving its last request.
+
+# manual_scaling:
+#  instances: 5
+
+# service_account:[SERVICE_ACCOUNT_NAME]@[PROJECT_ID].iam.gserviceaccount.com
