@@ -11,6 +11,10 @@ _[DISCLAIMER] The links and materials provided here are intended as supplementar
 - [Google Cloud Associate Cloud Engineer Course [2025] - Pass the Exam!](https://www.youtube.com/watch?v=OlAmyf8_4O4&ab_channel=freeCodeCamp.org)
   > This is a key resource. It provides a complete overview of the exam topics, often with practical demonstrations of the services.
 
+- [E-learning 1](https://www.cloudskillsboost.google/paths/11/course_templates/50)
+- [E-learning 2](https://www.cloudskillsboost.google/paths/11/course_templates/49)
+- [E-learning 3](https://www.cloudskillsboost.google/paths/11/course_templates/178)
+
 ### 2. Kubernetes Course
 - [Docker Containers and Kubernetes Fundamentals – Full Hands-On Course](https://www.youtube.com/watch?v=kTp5xUtcalw&ab_channel=freeCodeCamp.org)
 - [Getting Started with Google Kubernetes Engine](https://www.cloudskillsboost.google/paths/11/course_templates/2)
