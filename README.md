@@ -6,18 +6,17 @@ _[DISCLAIMER] The links and materials provided here are intended as supplementar
 ## Exam Preparation Materials
 ### 1. Google Cloud Courses
 - [Google Cloud Fundamentals: Core Infrastructure](https://www.skills.google/course_templates/60)
+- [Essential Google Cloud Infrastructure: Foundation](https://www.skills.google/paths/11/course_templates/50)
+- [Essential Google Cloud Infrastructure: Core Services](https://www.skills.google/paths/11/course_templates/49)
+- [Elastic Google Cloud Infrastructure: Scaling and Automation](https://www.skills.google/paths/11/course_templates/178)
   > This course is fantastic for building a strong foundation. It covers fundamental concepts and introduces the core services you'll be tested on.
-
-- [E-learning 1](https://www.cloudskillsboost.google/paths/11/course_templates/50)
-- [E-learning 2](https://www.cloudskillsboost.google/paths/11/course_templates/49)
-- [E-learning 3](https://www.cloudskillsboost.google/paths/11/course_templates/178)
 
 - [Google Cloud Associate Cloud Engineer Course [2025] - Pass the Exam!](https://www.youtube.com/watch?v=OlAmyf8_4O4)
   > It provides a complete overview of the exam topics, often with practical demonstrations of the services.
 
 ### 2. Kubernetes Course
 - [Docker Containers and Kubernetes Fundamentals – Full Hands-On Course](https://www.youtube.com/watch?v=kTp5xUtcalw&ab_channel=freeCodeCamp.org)
-- [Getting Started with Google Kubernetes Engine](https://www.cloudskillsboost.google/paths/11/course_templates/2)
+- [Getting Started with Google Kubernetes Engine](https://www.skills.google/paths/11/course_templates/2)
   > Containers and Kubernetes are crucial topics for the ACE exam. This video helps solidify your understanding of these concepts within the Google Cloud ecosystem.
 
 ### 3. Exam Guide
@@ -25,7 +24,7 @@ _[DISCLAIMER] The links and materials provided here are intended as supplementar
   > This is the official blueprint for the exam. Reviewing the five domains listed here is the best way to identify areas you need to focus on.
 
 ### 4. Exam Readiness
-- [Preparing for Your Associate Cloud Engineer Journey](https://www.cloudskillsboost.google/journeys/11/course_templates/77)
+- [Preparing for Your Associate Cloud Engineer Journey](https://www.skills.google/paths/11/course_templates/77)
   > This e-learning course is a must-do. It offers practice questions and a guided review of key topics, helping you gauge your readiness.
 
 - [Associate Cloud Engineer Sample Questions](https://docs.google.com/forms/d/e/1FAIpQLSfexWKtXT2OSFJ-obA4iT3GmzgiOCGvjrT9OfxilWC1yPtmfQ/viewform)
