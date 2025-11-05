@@ -5,15 +5,15 @@ _[DISCLAIMER] The links and materials provided here are intended as supplementar
 ---
 ## Exam Preparation Materials
 ### 1. Google Cloud Courses
-- [Google Cloud Fundamentals: Core Infrastructure](https://www.cloudskillsboost.google/paths/11/course_templates/60)
+- [Google Cloud Fundamentals: Core Infrastructure](https://www.skills.google/course_templates/60)
   > This course is fantastic for building a strong foundation. It covers fundamental concepts and introduces the core services you'll be tested on.
-
-- [Google Cloud Associate Cloud Engineer Course [2025] - Pass the Exam!](https://www.youtube.com/watch?v=OlAmyf8_4O4&ab_channel=freeCodeCamp.org)
-  > This is a key resource. It provides a complete overview of the exam topics, often with practical demonstrations of the services.
 
 - [E-learning 1](https://www.cloudskillsboost.google/paths/11/course_templates/50)
 - [E-learning 2](https://www.cloudskillsboost.google/paths/11/course_templates/49)
 - [E-learning 3](https://www.cloudskillsboost.google/paths/11/course_templates/178)
+
+- [Google Cloud Associate Cloud Engineer Course [2025] - Pass the Exam!](https://www.youtube.com/watch?v=OlAmyf8_4O4)
+  > It provides a complete overview of the exam topics, often with practical demonstrations of the services.
 
 ### 2. Kubernetes Course
 - [Docker Containers and Kubernetes Fundamentals – Full Hands-On Course](https://www.youtube.com/watch?v=kTp5xUtcalw&ab_channel=freeCodeCamp.org)
