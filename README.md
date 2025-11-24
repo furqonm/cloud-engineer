@@ -1,6 +1,6 @@
 ### Google Cloud Associate Cloud Engineer (ACE) Certification Preparation
 
-_[DISCLAIMER] The links and materials provided here are for supplementary study purposes. These self-documented study resources do not represent official information from Google Cloud, although some links and materials are from official Google sources.
+_[DISCLAIMER] The links and materials provided here are for supplementary study purposes. These self-documented study resources do not represent official information from Google Cloud, although some links and materials are from official Google sources._
 
 _
 
