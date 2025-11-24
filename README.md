@@ -1,6 +1,8 @@
 ### Google Cloud Associate Cloud Engineer (ACE) Certification Preparation
 
-_[DISCLAIMER] The links and materials provided here are intended as supplementary resources for learning. This personally documented material does not represent official information from Google Cloud, although some of it is sourced from official Google Cloud resources. Unofficial materials indicate that the content is not direct information from Google._
+_[DISCLAIMER] The links and materials provided here are for supplementary study purposes. These self-documented study resources do not represent official information from Google Cloud, although some links and materials are from official Google sources.
+
+_
 
 ---
 ## Exam Preparation Materials
@@ -25,13 +27,9 @@ _[DISCLAIMER] The links and materials provided here are intended as supplementar
 
 ### 4. Exam Readiness
 - [Preparing for Your Associate Cloud Engineer Journey](https://www.skills.google/paths/11/course_templates/77)
-  > This e-learning course is a must-do. It offers practice questions and a guided review of key topics, helping you gauge your readiness.
-
 - [Associate Cloud Engineer Sample Questions](https://docs.google.com/forms/d/e/1FAIpQLSfexWKtXT2OSFJ-obA4iT3GmzgiOCGvjrT9OfxilWC1yPtmfQ/viewform)
-  > Use this form to simulate the exam environment and get a feel for the types of questions you'll encounter.
-
 - [Google Cloud Associate Cloud Engineer - The Certified Q&A for GCP](https://www.youtube.com/playlist?list=PLQMsfKRZZviRwqJwNmh1eAWnRMvlrk40x)
-  > Practice with these sample questions and their explanations to understand the reasoning behind the correct answers.
+  > Multiple sample questions to help you get familiar with the question format for the exam.
 
 ## Official Documentation
 > **Explanation:** This section contains relevant Google documentation for the exam topics. Since documentation is usually very long, I have added key points to study to make exam preparation easier. Be sure to focus on these points when reading the documentation, though it is excellent if you understand all the information in the documentation.
@@ -147,8 +145,3 @@ _[DISCLAIMER] The links and materials provided here are intended as supplementar
 - [Moving a project](https://cloud.google.com/resource-manager/docs/moving-projects-folders)
   > Key points to study:
   - How to **move a project** in Google Cloud. A key point to remember is that when you move a project, all resources within it (like VMs, buckets, etc.) move with it.
-
-## Additional Materials (Optional)
-### 1. Infrastructure as Code (IAC)
-- [HashiCorp Terraform Associate Certification Course - Pass the Exam!](https://www.youtube.com/watch?v=V4waklkBC38&ab_channel=freeCodeCamp.org)
-  > A video to learn about Terraform. This material will not be on the Google exam, but it is useful for preparing for the HashiCorp Certified: Terraform Associate exam.
